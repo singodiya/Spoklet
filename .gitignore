@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.next-production/
+out/
+.env*
+!.env.local.example
+.vercel/
+*.tsbuildinfo
+coverage/
+.test-build/
+.DS_Store
+*.log
+.sites-runtime/

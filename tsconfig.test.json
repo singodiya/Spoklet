@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "CommonJS", "moduleResolution": "Node",
+    "outDir": ".test-build", "rootDir": ".", "strict": true,
+    "esModuleInterop": true, "skipLibCheck": true, "types": ["node"]
+  },
+  "include": ["tests/**/*.ts", "lib/ai/parser.ts"]
+}
